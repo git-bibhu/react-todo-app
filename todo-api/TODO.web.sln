@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30320.27
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TODO.web", "TODO.web\TODO.web.csproj", "{5B60A0CD-B27A-4E3F-AFD5-BFA14FB59085}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TODO.Model", "TODO.Model\TODO.Model.csproj", "{E35A28E4-C393-44EF-AFFC-E3B5129197D6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TODO.DAL", "TODO.DAL\TODO.DAL.csproj", "{62B47951-95ED-47FE-A573-CC6EA2A2CFC8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5B60A0CD-B27A-4E3F-AFD5-BFA14FB59085}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5B60A0CD-B27A-4E3F-AFD5-BFA14FB59085}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5B60A0CD-B27A-4E3F-AFD5-BFA14FB59085}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5B60A0CD-B27A-4E3F-AFD5-BFA14FB59085}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E35A28E4-C393-44EF-AFFC-E3B5129197D6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E35A28E4-C393-44EF-AFFC-E3B5129197D6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E35A28E4-C393-44EF-AFFC-E3B5129197D6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E35A28E4-C393-44EF-AFFC-E3B5129197D6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{62B47951-95ED-47FE-A573-CC6EA2A2CFC8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{62B47951-95ED-47FE-A573-CC6EA2A2CFC8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{62B47951-95ED-47FE-A573-CC6EA2A2CFC8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{62B47951-95ED-47FE-A573-CC6EA2A2CFC8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7487C4A5-B202-4940-9529-A1A400F24105}
+	EndGlobalSection
+EndGlobal

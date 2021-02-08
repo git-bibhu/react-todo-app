@@ -1,0 +1,76 @@
+@import "~bootstrap/scss/bootstrap";
+
+.root-container {
+  display: flex;
+  justify-content: flex-start;
+  position: relative;
+  height: 100vh;
+  width: 100vw;
+}
+
+.main-content {
+  width: 100%;
+}
+
+.header-row {
+  padding: 0.8rem;
+}
+
+.content-row {
+  justify-content: center;
+}
+
+.content-col {
+  max-width: 1800px;
+
+  &.with-login {
+    height: 100vh;
+  }
+}
+
+.actions {
+  display: flex;
+  justify-content: flex-end;
+  align-content: center;
+  align-items: center;
+  width: 100%;
+  padding-right: 2rem;
+  margin: 0 auto;
+}
+
+.txt-bold {
+  font-weight: bold;
+}
+
+.space-elements-side {
+  & > * {
+    margin-left: 0.2rem;
+    margin-right: 0.5rem;
+  }
+}
+
+.space-elements-bottom {
+  & > * {
+    margin-bottom: 0.5rem;
+  }
+}
+
+.align-elements-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.picker {
+  grid-column: 5/10;
+  grid-row: 2/4;
+  // background: cornflowerblue;
+  font-size: 80px;
+
+  input {
+    text-align: center;
+    border: none;
+    background-color: transparent;
+    border-bottom: 2px solid #e3b924;
+  }
+}
